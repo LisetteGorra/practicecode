@@ -1,14 +1,33 @@
 // Regular expressions are used in programming languages to match parts of strings. You create patterns to help you do that matching. 
 
+
+
+// using .match() method 
+let extractStr = "Extract the word 'coding' from this string.";
+let codingRegex = /change/; // Change this line
+let result = extractStr; // Change this line
+
+let extractStr = "Extract the word 'coding' from this string.";
+let codingRegex = /coding/; // Change this line
+let result = extractStr.match(codingRegex); // Change this line
+
+
+
+
+
+
+
+
+
 //use ignore case i to match and ignore caps lock 
-let myString = "freeCodeCamp";
-let fccRegex = /change/; // Change this line
-let result = fccRegex.test(myString);
+// let myString = "freeCodeCamp";
+// let fccRegex = /change/; // Change this line
+// let result = fccRegex.test(myString);
 
 
-let myString = "freeCodeCamp";
-let fccRegex = /freecodecamp/i; // Change this line
-let result = fccRegex.test(myString);
+// let myString = "freeCodeCamp";
+// let fccRegex = /freecodecamp/i; // Change this line
+// let result = fccRegex.test(myString);
 
 
 
