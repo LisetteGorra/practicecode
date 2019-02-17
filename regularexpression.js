@@ -1,19 +1,27 @@
 // Regular expressions are used in programming languages to match parts of strings. You create patterns to help you do that matching. 
 
-
-//Find dog cat bird or fish 
-let petString = "James has a pet cat.";
-let petRegex = /change/; // Change this line
-let result = petRegex.test(petString);
-
-let petString = "James has a pet cat.";
-let petRegex = /dog|cat|bird|fish/; // Change this line
-let result = petRegex.test(petString);
+//use ignore case i to match and ignore caps lock 
+let myString = "freeCodeCamp";
+let fccRegex = /change/; // Change this line
+let result = fccRegex.test(myString);
 
 
+let myString = "freeCodeCamp";
+let fccRegex = /freecodecamp/i; // Change this line
+let result = fccRegex.test(myString);
 
 
 
+
+
+// //Find dog cat bird or fish 
+// let petString = "James has a pet cat.";
+// let petRegex = /change/; // Change this line
+// let result = petRegex.test(petString);
+
+// let petString = "James has a pet cat.";
+// let petRegex = /dog|cat|bird|fish/; // Change this line
+// let result = petRegex.test(petString);
 
 
 
