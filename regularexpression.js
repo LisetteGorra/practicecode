@@ -1,16 +1,28 @@
 // Regular expressions are used in programming languages to match parts of strings. You create patterns to help you do that matching. 
 
+//dot character (.) to find word example misspelling 
+let exampleStr = "Let's have fun with regular expressions!";
+let unRegex = /change/; // Change this line
+let result = unRegex.test(exampleStr);
+
+// dot method to find fun, sun, nun, mun 
+let exampleStr = "Let's have fun with regular expressions!";
+let unRegex = /un./; // Change this line
+let result = unRegex.test(exampleStr);
 
 
-let twinkleStar = "Twinkle, twinkle, little star";
-let starRegex = /change/; // Change this line
-let result = twinkleStar; // Change this line
 
 
-let twinkleStar = "Twinkle, twinkle, little star";
-let starRegex = /twinkle/gi; 
-let result = twinkleStar.match(starRegex); 
 
+// use g and i flag
+// let twinkleStar = "Twinkle, twinkle, little star";
+// let starRegex = /change/; // Change this line
+// let result = twinkleStar; // Change this line
+
+
+// let twinkleStar = "Twinkle, twinkle, little star";
+// let starRegex = /twinkle/gi; 
+// let result = twinkleStar.match(starRegex); 
 
 
 
@@ -22,7 +34,6 @@ let result = twinkleStar.match(starRegex);
 // let extractStr = "Extract the word 'coding' from this string.";
 // let codingRegex = /coding/; // Change this line
 // let result = extractStr.match(codingRegex); // Change this line
-
 
 
 
@@ -38,8 +49,6 @@ let result = twinkleStar.match(starRegex);
 
 
 
-
-
 // //Find dog cat bird or fish 
 // let petString = "James has a pet cat.";
 // let petRegex = /change/; // Change this line
@@ -48,8 +57,6 @@ let result = twinkleStar.match(starRegex);
 // let petString = "James has a pet cat.";
 // let petRegex = /dog|cat|bird|fish/; // Change this line
 // let result = petRegex.test(petString);
-
-
 
 
 
@@ -62,9 +69,6 @@ let result = twinkleStar.match(starRegex);
 // let waldoIsHiding = "Somewhere Waldo is hiding in this text.";
 // let waldoRegex = /Waldo/; 
 // let result = waldoRegex.test(waldoIsHiding);
-
-
-
 
 
 
