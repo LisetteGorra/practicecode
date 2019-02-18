@@ -1,6 +1,7 @@
 // Regular expressions are used in programming languages to match parts of strings. You create patterns to help you do that matching. 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 //Find Waldo
 let waldoIsHiding = "Somewhere Waldo is hiding in this text.";
 let waldoRegex = /search/; // Change this line
@@ -23,24 +24,53 @@ let petRegex = /dog|cat|bird|fish/; // Change this line
 let result = petRegex.test(petString);
 >>>>>>> regularexpressions
 =======
+=======
+//Matching single characters not specified using ^ (negated character sets)
+let quoteSample = "3 blind mice.";
+let myRegex = /change/; // Change this line
+let result = myRegex; // Change this line
+//^=carat
 
-// matching letter of the alphabet 
-let quoteSample = "The quick brown fox jumps over the lazy dog.";
-let alphabetRegex = /change/; // Change this line
-let result = alphabetRegex; // Change this line
+let quoteSample = "3 blind mice.";
+let myRegex = /^aeiou^0-99/ig; // Change this line
+let result = quoteSample.mathc(myRegex); // Change this line
+
+
+
+
+>>>>>>> regularexpressionsx1
+
 
 >>>>>>> regularexpressions
 
+// matching numbers and letters with one regex
+// let quoteSample = "Blueberry 3.141592653s are delicious.";
+// let myRegex = /change/; // Change this line
+// let result = myRegex; // Change this line
 
-let quoteSample = "The quick brown fox jumps over the lazy dog.";
-let alphabetRegex = /[a-z]/ig; // Change this line
-let result = quoteSample.match(alphabetRegex); // Change this line
+
+// let quoteSample = "Blueberry 3.141592653s are delicious.";
+// let myRegex = /[h-s2-6]ig/;
+// let result = quoteSample.match(myRegex); // Change this line
+
 
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+// matching letter of the alphabet 
+// let quoteSample = "The quick brown fox jumps over the lazy dog.";
+// let alphabetRegex = /change/; // Change this line
+// let result = alphabetRegex; // Change this line
 
+
+>>>>>>> regularexpressionsx1
+
+// let quoteSample = "The quick brown fox jumps over the lazy dog.";
+// let alphabetRegex = /[a-z]/ig; // Change this line
+// let result = quoteSample.match(alphabetRegex); // Change this line
 
 
 //using character class with vowels
