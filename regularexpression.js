@@ -1,15 +1,26 @@
 // Regular expressions are used in programming languages to match parts of strings. You create patterns to help you do that matching. 
 
-// matching numbers and letters with one regex
-let quoteSample = "Blueberry 3.141592653s are delicious.";
+//Matching single characters not specified using ^ (negated character sets)
+let quoteSample = "3 blind mice.";
 let myRegex = /change/; // Change this line
 let result = myRegex; // Change this line
+//^=carat
 
 
 
-let quoteSample = "Blueberry 3.141592653s are delicious.";
-let myRegex = /[h-s2-6]ig/;
-let result = quoteSample.match(myRegex); // Change this line
+
+
+
+
+// matching numbers and letters with one regex
+// let quoteSample = "Blueberry 3.141592653s are delicious.";
+// let myRegex = /change/; // Change this line
+// let result = myRegex; // Change this line
+
+
+// let quoteSample = "Blueberry 3.141592653s are delicious.";
+// let myRegex = /[h-s2-6]ig/;
+// let result = quoteSample.match(myRegex); // Change this line
 
 
 
