@@ -6,6 +6,10 @@ let myRegex = /change/; // Change this line
 let result = myRegex; // Change this line
 //^=carat
 
+let quoteSample = "3 blind mice.";
+let myRegex = /^aeiou^0-99/ig; // Change this line
+let result = quoteSample.mathc(myRegex); // Change this line
+
 
 
 
