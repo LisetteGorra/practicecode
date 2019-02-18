@@ -1,20 +1,29 @@
 // Regular expressions are used in programming languages to match parts of strings. You create patterns to help you do that matching. 
 
+// matching numbers and letters with one regex
+let quoteSample = "Blueberry 3.141592653s are delicious.";
+let myRegex = /change/; // Change this line
+let result = myRegex; // Change this line
+
+
+
+let quoteSample = "Blueberry 3.141592653s are delicious.";
+let myRegex = /[h-s2-6]ig/;
+let result = quoteSample.match(myRegex); // Change this line
+
+
+
 
 // matching letter of the alphabet 
-let quoteSample = "The quick brown fox jumps over the lazy dog.";
-let alphabetRegex = /change/; // Change this line
-let result = alphabetRegex; // Change this line
+// let quoteSample = "The quick brown fox jumps over the lazy dog.";
+// let alphabetRegex = /change/; // Change this line
+// let result = alphabetRegex; // Change this line
 
 
 
-let quoteSample = "The quick brown fox jumps over the lazy dog.";
-let alphabetRegex = /[a-z]/ig; // Change this line
-let result = quoteSample.match(alphabetRegex); // Change this line
-
-
-
-
+// let quoteSample = "The quick brown fox jumps over the lazy dog.";
+// let alphabetRegex = /[a-z]/ig; // Change this line
+// let result = quoteSample.match(alphabetRegex); // Change this line
 
 
 //using character class with vowels
