@@ -1,16 +1,32 @@
 // Regular expressions are used in programming languages to match parts of strings. You create patterns to help you do that matching. 
 
+
+//using character class with vowels
+let quoteSample = "Beware of bugs in the above code; I have only proved it correct, not tried it.";
+let vowelRegex = /change/; // Change this line
+let result = vowelRegex; // Change this line
+
+let quoteSample = "Beware of bugs in the above code; I have only proved it correct, not tried it.";
+let vowelRegex = /[aeiou]/ig; // Change this line
+let result = quoteSample.match(vowelRegex); // Change this line
+
+
+
+
+
+
+
+
+
 //dot character (.) to find word example misspelling 
-let exampleStr = "Let's have fun with regular expressions!";
-let unRegex = /change/; // Change this line
-let result = unRegex.test(exampleStr);
+// let exampleStr = "Let's have fun with regular expressions!";
+// let unRegex = /change/; // Change this line
+// let result = unRegex.test(exampleStr);
 
-// dot method to find fun, sun, nun, mun 
-let exampleStr = "Let's have fun with regular expressions!";
-let unRegex = /un./; // Change this line
-let result = unRegex.test(exampleStr);
-
-
+// // dot method to find fun, sun, nun, mun 
+// let exampleStr = "Let's have fun with regular expressions!";
+// let unRegex = /un./; // Change this line
+// let result = unRegex.test(exampleStr);
 
 
 
