@@ -1,18 +1,23 @@
 
 
+//Match All Letters and Numbers with \w = [A-Za-z0-9_]
+let quoteSample = "The five boxing wizards jump quickly.";
+let alphabetRegexV2 = /change/; // Change this line
+let result = quoteSample.match(alphabetRegexV2).length;
+
+let quoteSample = "The five boxing wizards jump quickly.";
+let alphabetRegexV2 = /\w/g; // Change this line
+let result = quoteSample.match(alphabetRegexV2).length;
+
 
 //Match Ending String Patterns with ($) anchor character
-let caboose = "The last car on a train is the caboose";
-let lastRegex = /change/; // Change this line
-let result = lastRegex.test(caboose);
+// let caboose = "The last car on a train is the caboose";
+// let lastRegex = /change/; // Change this line
+// let result = lastRegex.test(caboose);
 
-let caboose = "The last car on a train is the caboose";
-let lastRegex = /caboose$/; // Change this line
-let result = lastRegex.test(caboose);
-
-
-
-
+// let caboose = "The last car on a train is the caboose";
+// let lastRegex = /caboose$/; // Change this line
+// let result = lastRegex.test(caboose);
 
 
 
