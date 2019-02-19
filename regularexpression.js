@@ -1,12 +1,57 @@
 // Regular expressions are used in programming languages to match parts of strings. You create patterns to help you do that matching. 
 
-//Matching single characters not specified using ^ (negated character sets)
-let quoteSample = "3 blind mice.";
+//using plus sign to match character that appears one or more times
+let difficultSpelling = "Mississippi";
 let myRegex = /change/; // Change this line
-let result = myRegex; // Change this line
-//^=carat
+let result = difficultSpelling.match(myRegex);
 
 
+
+let difficultSpelling = "Mississippi";
+let myRegex = /s+/g; // Change this line
+let result = difficultSpelling.match(myRegex);
+
+
+
+
+
+
+
+
+
+
+// //Find Waldo
+// let waldoIsHiding = "Somewhere Waldo is hiding in this text.";
+// let waldoRegex = /search/; // Change this line
+// let result = waldoRegex.test(waldoIsHiding);
+
+
+// //Correct Code
+// let waldoIsHiding = "Somewhere Waldo is hiding in this text.";
+// let waldoRegex = /Waldo/; 
+// let result = waldoRegex.test(waldoIsHiding);
+
+
+// //Find dog cat bird or fish 
+// let petString = "James has a pet cat.";
+// let petRegex = /change/; // Change this line
+// let result = petRegex.test(petString);
+
+// let petString = "James has a pet cat.";
+// let petRegex = /dog|cat|bird|fish/; // Change this line
+// let result = petRegex.test(petString);
+
+
+
+// //Matching single characters not specified using ^ (negated character sets)
+// let quoteSample = "3 blind mice.";
+// let myRegex = /change/; // Change this line
+// let result = myRegex; // Change this line
+// //^=carat
+
+// let quoteSample = "3 blind mice.";
+// let myRegex = /^aeiou^0-99/ig; // Change this line
+// let result = quoteSample.mathc(myRegex); // Change this line
 
 
 
@@ -21,7 +66,6 @@ let result = myRegex; // Change this line
 // let quoteSample = "Blueberry 3.141592653s are delicious.";
 // let myRegex = /[h-s2-6]ig/;
 // let result = quoteSample.match(myRegex); // Change this line
-
 
 
 
@@ -115,7 +159,6 @@ let result = myRegex; // Change this line
 // let waldoIsHiding = "Somewhere Waldo is hiding in this text.";
 // let waldoRegex = /Waldo/; 
 // let result = waldoRegex.test(waldoIsHiding);
-
 
 
 //Find Hello
