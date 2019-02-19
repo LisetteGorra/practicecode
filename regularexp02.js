@@ -1,22 +1,29 @@
 
 
 
+//Match Ending String Patterns with ($) anchor character
+let caboose = "The last car on a train is the caboose";
+let lastRegex = /change/; // Change this line
+let result = lastRegex.test(caboose);
+
+let caboose = "The last car on a train is the caboose";
+let lastRegex = /caboose$/; // Change this line
+let result = lastRegex.test(caboose);
+
+
+
+
+
 
 
 //Match Beginning String Patterns with caret symbol (^)
-let rickyAndCal = "Cal and Ricky both like racing.";
-let calRegex = /change/; // Change this line
-let result = calRegex.test(rickyAndCal);
+// let rickyAndCal = "Cal and Ricky both like racing.";
+// let calRegex = /change/; // Change this line
+// let result = calRegex.test(rickyAndCal);
 
-let rickyAndCal = "Cal and Ricky both like racing.";
-let calRegex = /^Cal/; // Change this line
-let result = calRegex.test(rickyAndCal);
-
-
-
-
-
-
+// let rickyAndCal = "Cal and Ricky both like racing.";
+// let calRegex = /^Cal/; // Change this line
+// let result = calRegex.test(rickyAndCal);
 
 
 
