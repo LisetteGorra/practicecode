@@ -1,29 +1,41 @@
 
 
 
+
+
+//Match Beginning String Patterns with caret symbol (^)
+let rickyAndCal = "Cal and Ricky both like racing.";
+let calRegex = /change/; // Change this line
+let result = calRegex.test(rickyAndCal);
+
+let rickyAndCal = "Cal and Ricky both like racing.";
+let calRegex = /^Cal/; // Change this line
+let result = calRegex.test(rickyAndCal);
+
+
+
+
+
+
+
+
+
 //Find One or More Criminals in a Hunt with (+)
 // example crowd gathering
-let crowd = 'P1P2P3P4P5P6CCCP7P8P9';
+// let crowd = 'P1P2P3P4P5P6CCCP7P8P9';
 
-let reCriminals = /./; // Change this line
+// let reCriminals = /./; // Change this line
 
-let matchedCriminals = crowd.match(reCriminals);
-console.log(matchedCriminals);
+// let matchedCriminals = crowd.match(reCriminals);
+// console.log(matchedCriminals);
 
-// example crowd gathering
-let crowd = 'P1P2P3P4P5P6CCCP7P8P9';
+// // example crowd gathering
+// let crowd = 'P1P2P3P4P5P6CCCP7P8P9';
 
-let reCriminals = /C+/; // Change this line
+// let reCriminals = /C+/; // Change this line
 
-let matchedCriminals = crowd.match(reCriminals);
-console.log(matchedCriminals);
-
-
-
-
-
-
-
+// let matchedCriminals = crowd.match(reCriminals);
+// console.log(matchedCriminals);
 
 
 
