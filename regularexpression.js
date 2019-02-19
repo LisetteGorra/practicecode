@@ -1,19 +1,17 @@
 // Regular expressions are used in programming languages to match parts of strings. You create patterns to help you do that matching. 
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 //Find Waldo
 let waldoIsHiding = "Somewhere Waldo is hiding in this text.";
 let waldoRegex = /search/; // Change this line
 let result = waldoRegex.test(waldoIsHiding);
 
-<<<<<<< HEAD
+
 //Correct Code
 let waldoIsHiding = "Somewhere Waldo is hiding in this text.";
 let waldoRegex = /Waldo/; 
 let result = waldoRegex.test(waldoIsHiding);
 
-=======
+
 //Find dog cat bird or fish 
 let petString = "James has a pet cat.";
 let petRegex = /change/; // Change this line
@@ -22,20 +20,70 @@ let result = petRegex.test(petString);
 let petString = "James has a pet cat.";
 let petRegex = /dog|cat|bird|fish/; // Change this line
 let result = petRegex.test(petString);
->>>>>>> regularexpressions
-=======
-=======
+
 //Matching single characters not specified using ^ (negated character sets)
 let quoteSample = "3 blind mice.";
+
+//using plus sign to match character that appears one or more times
+let difficultSpelling = "Mississippi";
+
 let myRegex = /change/; // Change this line
-let result = myRegex; // Change this line
-//^=carat
+let result = difficultSpelling.match(myRegex);
 
 let quoteSample = "3 blind mice.";
 let myRegex = /^aeiou^0-99/ig; // Change this line
 let result = quoteSample.mathc(myRegex); // Change this line
 
 
+//used plus sign to find more than one of the same character repeated
+let difficultSpelling = "Mississippi";
+let myRegex = /change/; // Change this line
+let result = difficultSpelling.match(myRegex);
+
+
+let difficultSpelling = "Mississippi";
+let myRegex = /s+/g; // Change this line
+let result = difficultSpelling.match(myRegex);
+
+
+
+
+
+
+
+
+// //Find Waldo
+// let waldoIsHiding = "Somewhere Waldo is hiding in this text.";
+// let waldoRegex = /search/; // Change this line
+// let result = waldoRegex.test(waldoIsHiding);
+
+
+// //Correct Code
+// let waldoIsHiding = "Somewhere Waldo is hiding in this text.";
+// let waldoRegex = /Waldo/; 
+// let result = waldoRegex.test(waldoIsHiding);
+
+
+// //Find dog cat bird or fish 
+// let petString = "James has a pet cat.";
+// let petRegex = /change/; // Change this line
+// let result = petRegex.test(petString);
+
+// let petString = "James has a pet cat.";
+// let petRegex = /dog|cat|bird|fish/; // Change this line
+// let result = petRegex.test(petString);
+
+
+
+// //Matching single characters not specified using ^ (negated character sets)
+// let quoteSample = "3 blind mice.";
+// let myRegex = /change/; // Change this line
+// let result = myRegex; // Change this line
+// //^=carat
+
+// let quoteSample = "3 blind mice.";
+// let myRegex = /^aeiou^0-99/ig; // Change this line
+// let result = quoteSample.mathc(myRegex); // Change this line
 
 
 >>>>>>> regularexpressionsx1
@@ -55,11 +103,14 @@ let result = quoteSample.mathc(myRegex); // Change this line
 
 
 
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> regularexpressionsx3
 // matching letter of the alphabet 
 // let quoteSample = "The quick brown fox jumps over the lazy dog.";
 // let alphabetRegex = /change/; // Change this line
@@ -153,6 +204,7 @@ let result = quoteSample.mathc(myRegex); // Change this line
 // let result = waldoRegex.test(waldoIsHiding);
 
 
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 
@@ -161,6 +213,8 @@ let result = quoteSample.mathc(myRegex); // Change this line
 >>>>>>> regularexpressions
 =======
 >>>>>>> regularexpressions
+=======
+>>>>>>> regularexpressionsx3
 //Find Hello
 // let myString = "Hello, World!";
 // let myRegex = /Hello/;
