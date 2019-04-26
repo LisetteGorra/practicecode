@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <p>Click the button below to retrieve the data!</p>
+    <button id="button">Retrieve Data</button>
+    <div class="data"></div>
+    
+    <script>
+        document.getElementById('button').addEventListener('click', retrieveTheData);
+        
+        function retrieveTheData() {
+            //execute an API call (using an XHR constructor)
+            var xhrObject = new XMLHttpRequest();
+            xhrObject.open('GET', "https://api.github.com/users" , true);
+            
+            xhrObject.onload = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                    console.log(xhrObject.responseText);
+                }
+            };
+            xhrObject.send();
+        }
+        
+    </script>
+</body>
+</html>
