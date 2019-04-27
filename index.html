@@ -21,8 +21,11 @@
             
             xhrObject.onload = function() {
                 if (this.readyState == 4 && this.status == 200) {
-                    console.log(xhrObject.responseText);
+                    
+                    var JSONdata = JSON.parse(this.responseText);
+                    console.log(JSONdata[0].login);
                 }
+                
             };
             xhrObject.send();
         }
